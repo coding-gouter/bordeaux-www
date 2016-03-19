@@ -1,8 +1,8 @@
 import Vue from 'vue'
-import App from './Content'
+import Content from './Content'
 
 /* eslint-disable no-new */
 new Vue({
   el: 'body',
-  components: { App }
+  components: { Content }
 })
