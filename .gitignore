@@ -1,3 +1,6 @@
+.DS_Store
+dist/
+
 # Created by .ignore support plugin (hsz.mobi)
 ### Node template
 # Logs
@@ -23,7 +26,7 @@ coverage
 .lock-wscript
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
-build/Release
+config/Release
 
 # Dependency directory
 # https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
