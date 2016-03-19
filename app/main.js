@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import App from './App'
+import App from './Content'
 
 /* eslint-disable no-new */
 new Vue({

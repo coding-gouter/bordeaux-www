@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img class="logo" src="assets/logo.png">
-    <hello></hello>
+    <cover></cover>
     <p>
       Welcome to your Vue.js app. To get started, take a look at the
       <a href="https://github.com/vuejs-templates/webpack#folder-structure" target="_blank">README</a>
@@ -21,11 +21,28 @@
 </template>
 
 <script>
-import Hello from './components/Hello'
+import Navbar from './components/Navbar'
+import Cover from './components/Cover'
+import Upcoming from './components/Upcoming'
+import Recipe from './components/Recipe'
+import Philosophy from './components/Philosophy'
+import Goals from './components/Goals'
+import Team from './components/Team'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
+
 
 export default {
   components: {
-    Hello
+    Navbar,
+    Cover,
+    Upcoming,
+    Recipe,
+    Philosophy,
+    Goals,
+    Team,
+    Contact,
+    Footer,
   }
 }
 </script>
