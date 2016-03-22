@@ -6,6 +6,7 @@
     <recipe></recipe>
     <philosophy></philosophy>
     <goals></goals>
+    <action></action>
     <team></team>
     <contact></contact>
     <footer></footer>
@@ -19,6 +20,7 @@ import Upcoming from './components/Upcoming'
 import Recipe from './components/Recipe'
 import Philosophy from './components/Philosophy'
 import Goals from './components/Goals'
+import Action from './components/Action'
 import Team from './components/Team'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
@@ -31,6 +33,7 @@ export default {
     Recipe,
     Philosophy,
     Goals,
+    Action,
     Team,
     Contact,
     Footer
